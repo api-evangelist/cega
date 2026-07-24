@@ -1,0 +1,34 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/cega-fi + https://www.npmjs.com/org/cega-fi
+packages:
+- language: typescript
+  registry: npm
+  name: "@cega-fi/cega-sdk-evm"
+  version: 1.5.6
+  url: https://www.npmjs.com/package/@cega-fi/cega-sdk-evm
+  repo: https://github.com/cega-fi/cega-sdk-evm
+  install: npm install @cega-fi/cega-sdk-evm
+  license: MIT
+  official: true
+  description: SDK to communicate with Cega's EVM smart contracts (Ethereum Mainnet, Arbitrum One) for Fixed Coupon Notes and Dual Currency Swap products.
+- language: typescript
+  registry: npm
+  name: "@cega-fi/cega-sdk-sol-v2"
+  version: 1.0.3
+  url: https://www.npmjs.com/package/@cega-fi/cega-sdk-sol-v2
+  repo: https://github.com/cega-fi/cega-sdk-sol-v2
+  install: npm install @cega-fi/cega-sdk-sol-v2
+  license: MIT
+  official: true
+  description: SDK to communicate with Cega's Solana on-chain programs (v2).
+- language: typescript
+  registry: npm
+  name: "@cega-fi/cega-sdk-sol"
+  version: 1.1.0
+  url: https://www.npmjs.com/package/@cega-fi/cega-sdk-sol
+  repo: https://github.com/cega-fi/cega-sdk-sol
+  install: npm install @cega-fi/cega-sdk-sol
+  license: MIT
+  official: true
+  description: SDK to communicate with Cega's Solana smart-contract vaults (v1).

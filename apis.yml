@@ -1,8 +1,11 @@
 aid: cega
 name: Cega
-description: 'Cega is a company surfaced as a portfolio company of pantera-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Cega is a decentralized exotic derivatives protocol building on-chain structured products
+  for investors: exotic options such as Fixed Coupon Notes (pure options and bond + options) and Dual
+  Currency Swaps that generate yield with built-in downside protection. Cega is live on Ethereum Mainnet
+  and Arbitrum One (EVM) and on Solana, and exposes its protocol to developers through first-party
+  TypeScript SDKs on npm (@cega-fi) plus a GraphQL subgraph rather than a hosted REST API. Backed by
+  Pantera Capital and surfaced into the API Evangelist network from its VC portfolio.'
 url: https://raw.githubusercontent.com/api-evangelist/cega/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +13,32 @@ x-backed-by:
 - pantera-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://avatars.githubusercontent.com/u/97279340?v=4
 tags:
 - Company
 - Crypto
+- DeFi
+- Derivatives
+- Options
+- Structured Products
+- Blockchain
+- Solana
+- Ethereum
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,24 @@ maintainers:
 common:
 - type: Website
   url: https://www.cega.fi/
+- type: DeveloperPortal
+  url: https://app.cega.fi/
+- type: GitHubOrganization
+  url: https://github.com/cega-fi
+- type: Documentation
+  url: https://github.com/cega-fi/cega-sdk-evm/blob/main/documentation/v1.md
+- type: SourceCode
+  url: https://github.com/cega-fi/cega-sdk-evm
+- type: Packages
+  url: packages/cega-packages.yml
+- type: SDKs
+  url: packages/cega-packages.yml
+- type: LLMsTxt
+  url: llms/cega-llms.txt
+- type: DomainSecurity
+  url: security/cega-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
